@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+}
+.container{
+    width: 330px;
+    height: auto;
+}
+.subContainer{
+    padding: 50px 0;
+    border: 1px solid grey;
+    border-radius: 10px 10px 0 0;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+form{
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.username{
+    display: flex;
+}
+.credentialField{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-bottom: 10px; 
+    font-size: 15px;
+}
+.btn{
+    width: 100%;
+    border: none;
+    margin: 10px 0;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: black;
+}
+.showPass{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.showPass > input{
+    margin: 0;
+    border-radius: 5px 0 0 5px;
+    border: none;
+}
+.showPass > span{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.link{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    align-self: center;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.getUsers{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    font-family: 'Poppins';
+    background-color: lightgray;
+}
+.getUsers > div{
+    width: auto;
+}
+.getUsers > div > h2{
+    margin-bottom: 25px;
+}
+th{
+    padding: 15px;
+    font-size: 16px;
+}
+td{
+    padding: 7px 15px;
+}
+td{
+    font-weight: 500;
+    text-align: center;
+    font-size: 15px;
+}
+.blockBtn{
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 14px;
+}
+.div{
+    width: 100%;
+    height: 100vh;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins";
+    background-color: lightgray;
+}
+.contain{
+    width: 80%;
+}
+.contain > h1{
+    margin-bottom: 25px;
+}
+.userDetails > h2{
+    margin-bottom: 20px;
+}
+.bookingDetails > h2{
+    margin-bottom: 20px;
+}
+.bookingDetails{
+    margin-top: 20px;
+}
+.subAdmin{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins';
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+.contain2{
+    width: auto;
+    margin-top: 50px;
+}
+.contain2 > h2{
+    margin-bottom: 20px;
+}
+.contain2 > table > tbody > tr > td > button{
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Poppins';
+    background-color: black;
+}
+.specialTd{
+    width: 500px;
+}

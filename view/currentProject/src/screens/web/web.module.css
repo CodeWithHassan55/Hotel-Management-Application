@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainDiv{
+    width: 100%;
+    height: auto;
+    font-family: "Poppins", sans-serif; 
+}
+.bgImg{
+    background-image: url(../../images/bg_img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgImg > h1{
+    color: white;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.545);
+    padding: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.bigContainer{
+    background-color: #f5f4f4;
+    width: 100%;
+    padding: 40px 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 1050px;
+    height: auto;
+}
+.hotels{
+    width: 100%;
+    margin-left: 20px;
+    min-width: 737px;
+    height: 100%;
+}
+.filters{
+    background-color: white;
+    width: 29%;
+    min-width: 200px;
+    height: fit-content;
+    border: 1px solid lightgray;
+    padding: 15px 17px;
+    border-radius: 5px;
+}
+.priceFilter{
+    padding-top: 15px;
+    border-top: 1px solid lightgrey;
+}
+.filters > div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 15px;
+}
+.filters > div > div{
+    margin-top: 15px;
+}
+.card{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 10px;
+}
+.cardBody{
+    background-color: white;
+    width: 100%;
+    margin-left: 13px;
+    position: relative;
+}
+.price{
+    position: absolute;
+    z-index: 1;
+    bottom: 2%;
+    right: 1%;
+    text-align: right;
+}
+.price > button{
+    padding: 12px 15px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    height: 190px;
+}
+.footerContent{
+    padding: 0 30px;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+}
+.footerContent > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
